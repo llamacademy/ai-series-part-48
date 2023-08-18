@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9057760123667008037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81988d2f5a5807241b45a076853c02f1, type: 3}
+  m_Name: SelfPosition
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 0
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &-5379183362546698145
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: CanSpit
+  m_EditorClassIdentifier: 
+  category: Spit
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &-1405983810253580146
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: CanMelee
+  m_EditorClassIdentifier: 
+  category: Melee Attacks
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &-593489260017175381
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72fbaec49b8225645904ab749fbd5295, type: 3}
+  m_Name: SpitSpawnRotation
+  m_EditorClassIdentifier: 
+  category: Spit
+  description: 
+  sync: 0
+  isLocal: 0
+  value: {x: 0, y: 0, z: 0, w: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3a71c596e8b0944b909bbf44cf66c50, type: 3}
+  m_Name: Llama Blackboard
+  m_EditorClassIdentifier: 
+  keys:
+  - {fileID: 5456183540096777809}
+  - {fileID: 6879369988766379747}
+  - {fileID: 3907257972852516920}
+  - {fileID: 758623349820686079}
+  - {fileID: -1405983810253580146}
+  - {fileID: 7179146944128900832}
+  - {fileID: -5379183362546698145}
+  - {fileID: 5792187608957732842}
+  - {fileID: -593489260017175381}
+  - {fileID: 8208463072766925885}
+  - {fileID: -9057760123667008037}
+  - {fileID: 275785711706052908}
+  parent: {fileID: 0}
+--- !u!114 &275785711706052908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: CanRoll
+  m_EditorClassIdentifier: 
+  category: Movement
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &758623349820686079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: IsInMeleeRange
+  m_EditorClassIdentifier: 
+  category: Melee Attacks
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &3907257972852516920
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: IsInChaseRange
+  m_EditorClassIdentifier: 
+  category: Movement
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &5456183540096777809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c25e407b7ce80ad48afc03654956a1b0, type: 3}
+  m_Name: Self
+  m_EditorClassIdentifier: 
+  category: 
+  description: 
+  sync: 0
+  isLocal: 0
+  value: {fileID: 0}
+--- !u!114 &5792187608957732842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81988d2f5a5807241b45a076853c02f1, type: 3}
+  m_Name: SpitSpawnPosition
+  m_EditorClassIdentifier: 
+  category: Spit
+  description: 
+  sync: 0
+  isLocal: 0
+  value: {x: 0, y: 0, z: 0}
+--- !u!114 &6879369988766379747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1c717f2aa08147478edeef178e4461d, type: 3}
+  m_Name: Player
+  m_EditorClassIdentifier: 
+  category: Movement
+  description: 
+  sync: 0
+  isLocal: 0
+  value: {fileID: 0}
+--- !u!114 &7179146944128900832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: IsInSpitRange
+  m_EditorClassIdentifier: 
+  category: Spit
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
+--- !u!114 &8208463072766925885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b97a1cab3e25e246a1321c1c6515ce3, type: 3}
+  m_Name: CanBounce
+  m_EditorClassIdentifier: 
+  category: Melee Attacks
+  description: 
+  sync: 0
+  isLocal: 0
+  value: 0
